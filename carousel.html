@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Testimonial Slider</title>
+      <link rel="stylesheet" href="CSS/style.css" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" ></script>
+      <script src="https://kit.fontawesome.com/b3928d282b.js" crossorigin="anonymous"></script>
+      <link rel="shortcut icon" href="Img/RELXO-removebg-preview.ico" type="image/x-icon">
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg">
+         <div class="container">
+            <img src="Img/RELXO-removebg-preview.png" class="logo" alt="logo">
+            <a class="navbar-brand mx-auto" href="#">RELXO</a>
+            <!-- Centered Logo -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+               class="collapse navbar-collapse justify-content-end"
+               id="navbarNav"
+               >
+               <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
+                  <li class="nav-item">
+                     <a class="btn btn-custom" href="#">Get Free Consultancy</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!--Test-->
+      <div style="overflow: hidden;" class="no-scrollbar">
+         <div class="row flex-nowrap overflow-auto" style=" margin-right: 5px; margin-left: 5px;">
+            <!-- Your card items -->
+            <div class="container category-carousel1 my-4">
+               <div id="categoryCarousel" class="carousel slide" data-bs-ride="carousel">
+                  <!-- Carousel indicators -->
+                  <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#categoryCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                     <button type="button" data-bs-target="#categoryCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  </div>
+                  <div class="carousel-inner">
+                     <!-- First slide -->
+                     <div class="carousel-item active">
+                        <!-- Use flex-nowrap to prevent wrapping, overflow-auto to allow horizontal scroll -->
+                        <div class="row flex-nowrap">
+                           <div class="col-lg-3 col-md-4 col-sm-6 ">
+                              <a href="category.html" class="category-item1 text-center d-block">
+                              <img src="Img/yoga1.png" class="img-fluid d-block w-100" alt="Image 1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                              </a>
+                           </div>
+                           <div class="col-lg-3 col-md-4 col-sm-6">
+                              <a href="category.html" class="category-item1 text-center d-block">
+                              <img src="Img/yoga2.png" class="img-fluid d-block w-100" alt="Image 2" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                              </a>
+                           </div>
+                           <div class="col-lg-3 col-md-4 col-sm-6">
+                              <a href="category.html" class="category-item1 text-center d-block">
+                              <img src="Img/yoga3.png" class="img-fluid d-block w-100" alt="Image 3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                              </a>
+                           </div>
+                           <div class="col-lg-3 col-md-4 col-sm-6">
+                              <a href="category.html" class="category-item1 text-center d-block">
+                              <img src="Img/yoga4.png" class="img-fluid d-block w-100" alt="Image 4" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Second slide -->
+                     <div class="carousel-item">
+                        <div class="row flex-nowrap ">
+                           <div class="col-lg-3 col-md-4 col-sm-6">
+                              <a href="category.html" class="category-item1 text-center d-block">
+                                 <img src="Img/yoga5.png" class="img-fluid d-block w-100" alt="Image 5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                              </a>
+                           </div>
+                           <div class="col-lg-3 col-md-4 col-sm-6">
+                              <a href="category.html" class="category-item1 text-center d-block">
+                                 <img src="Img/yoga6.png" class="img-fluid d-block w-100" alt="Image 6" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                              </a>
+                           </div>
+                           <div class="col-lg-3 col-md-4 col-sm-6">
+                              <a href="category.html" class="category-item1 text-center d-block">
+                                 <img src="Img/yoga7.png" class="img-fluid d-block w-100" alt="Image 7" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                              </a>
+                           </div>
+                           <div class="col-lg-3 col-md-4 col-sm-6">
+                              <a href="category.html" class="category-item1 text-center d-block">
+                                 <img src="Img/yoga8.png" class="img-fluid d-block w-100" alt="Image 8" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Carousel controls -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#categoryCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon arrow-prev"></span>
+                  <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#categoryCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon arrow"></span>
+                  <span class="visually-hidden">Next</span>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--Test-->
+      <!--Category-->
+      <div style="overflow: hidden;" class="no-scrollbar">
+         <div class="row flex-nowrap overflow-auto" style="padding-bottom: 20px; margin-bottom: -20px;">
+            <!-- Your card items -->
+            <div class="container category-carousel my-4">
+               <h2 class="mb-4 text-yoga">Yoga Guru</h2>
+               <div id="categoryCarousell" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                     <!-- First slide -->
+                     <div class="carousel-item active">
+                        <!-- Use flex-nowrap to prevent wrapping, overflow-auto to allow horizontal scroll -->
+                        <div class="row flex-nowrap overflow-auto">
+                           <div class="col-lg-3 col-md-4 col-sm-6 ">
+                              <a href="category.html" class="category-item text-center d-block">
+                                 <img src="Img/yoga-guru-9.jpg" class="category-img img-fluid" alt="Nature Thumbnail" data-aos="fade-up" data-aos-duration="3000">
+                                 <h4 class="category-title">Hatha Yoga</h4>
+                              </a>
+                           </div>
+                           <div class="col-lg-3 col-md-4 col-sm-6">
+                              <a href="category.html" class="category-item text-center d-block">
+                                 <img src="Img/yoga-guru-2.jpg" class="category-img img-fluid" alt="Nature Thumbnail" data-aos="fade-down" data-aos-duration="3000">
+                                 <h4 class="category-title">Restorative and Yin Yoga</h4>
+                              </a>
+                           </div>
+                           <div class="col-lg-3 col-md-4 col-sm-6">
+                              <a href="category.html" class="category-item text-center d-block">
+                                 <img src="Img/yoga-guru-3.jpg" class="category-img img-fluid" alt="Nature Thumbnail" data-aos="fade-down" data-aos-duration="3000">
+                                 <h4 class="category-title">Iyengar Yoga</h4>
+                              </a>
+                           </div>
+                           <div class="col-lg-3 col-md-4 col-sm-6">
+                              <a href="category.html" class="category-item text-center d-block">
+                                 <img src="Img/yoga-guru-4.jpg" class="category-img img-fluid" alt="Nature Thumbnail" data-aos="fade-up"
+                                 data-aos-duration="3000">
+                                 <h4 class="category-title">Flow or Vinyasa Yoga</h4>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Second slide -->
+                     <div class="carousel-item">
+                        <div class="row flex-nowrap overflow-auto">
+                           <div class="col-lg-3 col-md-4 col-sm-6">
+                              <a href="category.html" class="category-item text-center d-block">
+                                 <img src="Img/yoga-guru-5.png" class="category-img img-fluid" alt="Nature Thumbnail" data-aos="fade-up" data-aos-duration="3000">
+                                 <h4 class="category-title">Hot and Bikram Yoga</h4>
+                              </a>
+                           </div>
+                           <div class="col-lg-3 col-md-4 col-sm-6">
+                              <a href="category.html" class="category-item text-center d-block">
+                                 <img src="Img/yoga-guru-6.jpg" class="category-img img-fluid" alt="Nature Thumbnail" data-aos="fade-down" data-aos-duration="3000">
+                                 <h4 class="category-title">Ashtanga Yoga</h4>
+                              </a>
+                           </div>
+                           <div class="col-lg-3 col-md-4 col-sm-6">
+                              <a href="category.html" class="category-item text-center d-block">
+                                 <img src="Img/yoga-guru-7.jpg" class="category-img img-fluid" alt="Nature Thumbnail" data-aos="fade-down" data-aos-duration="3000">
+                                 <h4 class="category-title">Power Yoga</h4>
+                              </a>
+                           </div>
+                           <div class="col-lg-3 col-md-4 col-sm-6">
+                              <a href="category.html" class="category-item text-center d-block">
+                                 <img src="Img/yoga-guru-8.jpg" class="category-img img-fluid" alt="Nature Thumbnail" data-aos="fade-up"
+                                 data-aos-duration="3000">
+                                 <h4 class="category-title">Aerial Yoga</h4>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Carousel controls -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#categoryCarousell" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon arrow-prev"></span>
+                  <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#categoryCarousell" data-bs-slide="next">
+                  <span class="carousel-control-next-icon arrow"></span>
+                  <span class="visually-hidden">Next</span>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--Comments-->
+      <div class="comment-carousel-bg">
+         <div class="container">
+            <div id="commentCarouselCustom" class="carousel slide" data-bs-ride="carousel">
+               <div class="carousel-inner text-center">
+                  <!-- Slide 1 (Active) -->
+                  <div class="carousel-item active">
+                     <div class="d-flex flex-column align-items-center">
+                        <img
+                           src="Img/luffy.png"
+                           alt="Profile Picture"
+                           class="rounded-circle comment-carousel-img mb-3"
+                           />
+                        <div class="comment-carousel-title">Director</div>
+                        <div class="comment-carousel-name">Person Name</div>
+                        <p class="comment-carousel-text">
+                           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                           varius in enim in eros elementum tristique. Duis cursus, mi quis
+                           viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+                        </p>
+                     </div>
+                  </div>
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                     <div class="d-flex flex-column align-items-center">
+                        <img
+                           src="Img/Sanji.jpg"
+                           alt="Profile Picture"
+                           class="rounded-circle comment-carousel-img mb-3"
+                           />
+                        <div class="comment-carousel-title">Marketing Manager</div>
+                        <div class="comment-carousel-name">Another Person</div>
+                        <p class="comment-carousel-text">
+                           "Pellentesque habitant morbi tristique senectus et netus et malesuada
+                           fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget."
+                        </p>
+                     </div>
+                  </div>
+                  <!-- Slide 3 -->
+                  <div class="carousel-item">
+                     <div class="d-flex flex-column align-items-center">
+                        <img
+                           src="Img/zoro.jpg"
+                           alt="Profile Picture"
+                           class="rounded-circle comment-carousel-img mb-3"
+                           />
+                        <div class="comment-carousel-title">Team Lead</div>
+                        <div class="comment-carousel-name">Third Person</div>
+                        <p class="comment-carousel-text">
+                           "Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
+                           ut sem vitae risus tristique posuere. Proin ac neque a nulla tincidunt ultricies."
+                        </p>
+                     </div>
+                  </div>
+                  <!-- Add more slides here if needed -->
+               </div>
+               <!-- Controls -->
+               <button
+                  class="carousel-control-prev button-17"
+                  type="button"
+                  data-bs-target="#commentCarouselCustom"
+                  data-bs-slide="prev"
+                  >
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="#">Previous</span>
+               </button>
+               <button
+                  class="carousel-control-next button-17"
+                  type="button"
+                  data-bs-target="#commentCarouselCustom"
+                  data-bs-slide="next"
+                  >
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="#">Next</span>
+               </button>
+            </div>
+         </div>
+      </div>
+      <!--Comments End-->
+      <footer class="footer text-center text-lg-start text-white">
+         <!-- Social Media Section -->
+         <section class="social-media d-flex justify-content-between p-4">
+            <div class="social-left">
+               <span>Get connected with us:</span>
+            </div>
+            <div class="social-right">
+               <a href="#" class="text-white me-4"><i class="fab fa-facebook-f"></i></a>
+               <a href="#" class="text-white me-4"><i class="fab fa-twitter"></i></a>
+               <a href="#" class="text-white me-4"><i class="fab fa-google"></i></a>
+               <a href="#" class="text-white me-4"><i class="fab fa-instagram"></i></a>
+               <a href="#" class="text-white me-4"><i class="fab fa-linkedin"></i></a>
+               <a href="#" class="text-white me-4"><i class="fab fa-github"></i></a>
+            </div>
+         </section>
+         <!-- Links Section -->
+         <section class="links-section">
+            <div class="container text-center text-md-start mt-5">
+               <div class="row">
+                  <!-- Company Information -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                     <h6 class="text-uppercase fw-bold">Company name</h6>
+                     <hr class="underline">
+                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner img-carousel-yoga-main">
+                           <div class="carousel-item active">
+                              <img src="Img/yoga_footer-1.jpg" class=" img-carousel-yoga" alt="...">
+                           </div>
+                           <div class="carousel-item">
+                              <img src="Img/yoga_footer-2.jpg" class=" img-carousel-yoga" alt="...">
+                           </div>
+                           <div class="carousel-item">
+                              <img src="Img/yoga_footer-4.jpg" class=" img-carousel-yoga" alt="...">
+                           </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                     </div>
+                  </div>
+                  <!-- Products -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                     <h6 class="text-uppercase fw-bold">Products</h6>
+                     <hr class="underline" />
+                     <p><a href="#!" class="text-white">Yoga-Guru</a></p>
+                     <p><a href="#!" class="text-white">Technique</a></p>
+                     <p><a href="#!" class="text-white">Flow</a></p>
+                     <p>
+                        <a href="#!" class="text-white">Peace</a>
+                     </p>
+                  </div>
+                  <!-- Useful Links -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                     <h6 class="text-uppercase fw-bold">Useful links</h6>
+                     <hr class="underline" />
+                     <p><a href="#!" class="text-white">Your Account</a></p>
+                     <p><a href="#!" class="text-white">Become an Members</a></p>
+                     <p><a href="#!" class="text-white">Rates</a></p>
+                     <p><a href="#!" class="text-white">Help</a></p>
+                  </div>
+                  <!-- Contact -->
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                     <h6 class="text-uppercase fw-bold">Contact</h6>
+                     <hr class="underline" />
+                     <p><i class="fas fa-home mr-3"></i> 635J Yoma Avenue Street, Yangon</p>
+                     <p><i class="fas fa-envelope mr-3"></i> edusn.co.uk</p>
+                     <p><i class="fas fa-phone mr-3"></i> + 09 793 333550</p>
+                     <p><i class="fas fa-print mr-3"></i> + 09 793 333550</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Copyright -->
+         <div class="copyright text-center p-3">
+            <img src="Img/RELXO-removebg-preview.png" class="logo" alt="logo">
+            © 2025 Copyright:
+            <a class="text-white" href="#">RELXO</a>
+         </div>
+      </footer>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeo1kyvsaEwQNVKC9JRk8tp7S4R6PSdvA39n6O0G7+gNVZ6+" crossorigin="anonymous"></script>
+      <script>
+         AOS.init();
+      </script>
+   </body>
+</html>
